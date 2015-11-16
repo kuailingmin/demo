@@ -3,11 +3,13 @@
     <properties>
       <sourceFilesUrls>
         <item url="file://$PROJECT_DIR$/index.js" />
+        <item url="file://$PROJECT_DIR$/module.js" />
       </sourceFilesUrls>
     </properties>
     <CLASSES>
       <root url="file://$PROJECT_DIR$/app.js" />
       <root url="file://$PROJECT_DIR$/index.js" />
+      <root url="file://$PROJECT_DIR$/module.js" />
     </CLASSES>
     <SOURCES />
   </library>
