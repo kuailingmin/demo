@@ -1,1 +1,1 @@
-{"version":3,"file":"anyDemo.js","sourceRoot":"","sources":["anyDemo.ts"],"names":[],"mappings":"AAAA;;GAEG"}
+{"version":3,"file":"anyDemo.js","sourceRoot":"","sources":["anyDemo.ts"],"names":["demo","number"],"mappings":"AAGA,AAHA;;GAEG;IACC,MAAM,GAAO,EAAE,CAAC;AACpB,IAAI,OAAO,GAAO,IAAI,CAAC;AAEvB,SAAS,IAAI;IACTA,MAAMA,CAACA,EAAEA,CAACA;AACdA,CAACA;AAED,SAAS,MAAM;IACXC,MAAMA,CAACA,CAACA,CAACA;AACbA,CAACA"}
