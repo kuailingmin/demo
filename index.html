@@ -11,6 +11,27 @@
     <script src="classExtend.js" type="text/javascript"></script>
 </head>
 <body>
-
+   select对象与Range对象使用
+   <input type="button" value="点击" onclick="test()"/>
+   <div id="show"></div>
 </body>
+<script type="text/javascript">
+    function test(){
+        var html,
+                showRange = document.getElementById("show");
+        select = document.getSelection();
+
+        //判断获取内容区域
+        if(select.rangeCount > 0){
+            html = "我选取了>" + select.rangeCount + "<内容";
+            for(var i = 0; i < select.rangeCount; i++){
+                var range = select.getRangeAt(i);
+                html += "第" + (i + 1) + "段内容:" + range + "<br/>";
+            }
+            showRange.innerHTML = html;
+
+        }
+    }
+
+</script>
 </html>
