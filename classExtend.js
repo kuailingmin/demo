@@ -28,7 +28,6 @@ var Student = (function (_super) {
 })(Person);
 var s = new Student();
 s.name = "蒯灵敏";
-s.age = 30;
 s.school = "北大";
 console.log(s.print());
 //# sourceMappingURL=classExtend.js.map

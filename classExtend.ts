@@ -21,7 +21,6 @@ class Student extends Person{
 
 var s = new Student();
 s.name = "蒯灵敏";
-s.age = 30;
 s.school="北大";
 
 console.log(s.print());
