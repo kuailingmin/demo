@@ -14,4 +14,6 @@ var c:color = color.red;
 console.log(colorName);
 console.log(colorName1);
 console.log(colorName2);
+
+
 console.log(c + "呼呼呼呼呼");
